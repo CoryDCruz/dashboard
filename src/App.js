@@ -7,7 +7,10 @@ function App() {
     <div className="App">
       <h1>Dashboard</h1>
       <Sidebar />
-      <Reviews />
+      <div className="reviews">
+        <Reviews />
+      </div>
+      
 
     </div>
   );
