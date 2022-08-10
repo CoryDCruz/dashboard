@@ -8,7 +8,7 @@ import ListItemButton from '@mui/material/ListItemButton';
 import ListItemText from '@mui/material/ListItemText';
 
 
-const drawerWidth = 240;
+const drawerWidth = 150;
 
 export default function Sidebar() {
   return (

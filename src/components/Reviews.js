@@ -10,6 +10,11 @@ return(
     <Card sx={{ width: 500 }}>
         <CardHeader 
           title="Reviews"/>
+          <CardContent>
+            <Typography>
+                1000
+            </Typography>
+          </CardContent>
     </Card>
     
 
