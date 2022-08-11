@@ -5,28 +5,28 @@ import { Grid, Typography } from '@mui/material'
 import WebsiteVisitors from './components/WebsiteVisitors';
 import AverageReviews from './components/AverageReviews'
 import SentimentAnalysis from './components/SentimentAnalysis';
+import React, { Box } from '@mui/material'
+
 function App() {
   
   return (
     <div className="App">
       <Typography color="primary" variant="h2">Dashboard</Typography>
       <Sidebar />
-      <div>
-        <Grid container spacing={2} rowSpacing={12} columnSpacing={{xs: 1, sm: 2, md: 3}} >
-          <Grid item xs={6} >
+        <Grid container spacing={10} alignItems="center" justifyContent="center" direction="column">
+          <Grid item  xl={6} md={6} sm={12} xs={6}>
               <Reviews />
             </Grid>
-            <Grid item xs={6}>
+            <Grid item  xl={6} md={6} sm={12} xs={6}>
               <AverageReviews />
             </Grid>
-            <Grid item xs={6}>
+            <Grid item  xl={6} md={6} sm={12} xs={6}>
                 <SentimentAnalysis />
             </Grid>
-            <Grid item xs={6}>
+            <Grid item  xl={6} md={6} sm={12} xs={6}>
               <WebsiteVisitors />
               </Grid>
-          </Grid>
-       </div>
+        </Grid>
     </div>
   );
 }
