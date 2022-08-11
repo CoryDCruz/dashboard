@@ -12,20 +12,20 @@ function App() {
       <Typography color="primary" variant="h2">Dashboard</Typography>
       <Sidebar />
       <div>
-        <Grid container alignItems="center" justifyContent="center" spacing={10} direction="column">
-          <Grid item xs={6} sm={6} md={3}>
+        <Grid container spacing={2} rowSpacing={12} columnSpacing={{xs: 1, sm: 2, md: 3}} >
+          <Grid item xs={6} >
               <Reviews />
             </Grid>
-            <Grid item xs={12} sm={6} md={3}>
+            <Grid item xs={6}>
               <AverageReviews />
             </Grid>
-            <Grid item xs={12} sm={6} md={3}>
+            <Grid item xs={6}>
                 <SentimentAnalysis />
             </Grid>
-            <Grid item xs={12} sm={6} md={3}>
+            <Grid item xs={6}>
               <WebsiteVisitors />
               </Grid>
-         </Grid>
+          </Grid>
        </div>
     </div>
   );
