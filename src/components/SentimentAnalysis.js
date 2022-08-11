@@ -11,7 +11,13 @@ return(
           title="Sentiment Analysis"/>
           <CardContent>
             <Typography>
-                Meh
+                100
+            </Typography>
+            <Typography>
+                100
+            </Typography>
+            <Typography>
+                100
             </Typography>
           </CardContent>
     </Card>
