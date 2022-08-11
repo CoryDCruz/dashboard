@@ -13,17 +13,17 @@ function App() {
     <div className="App">
       <Typography color="primary" variant="h2">Dashboard</Typography>
       <Sidebar />
-        <Grid container spacing={10} alignItems="center" justifyContent="center" direction="column">
-          <Grid item  xl={6} md={6} sm={12} xs={6}>
+        <Grid container spacing={6} alignItems="center" justifyContent="center" direction="row">
+          <Grid item>
               <Reviews />
             </Grid>
-            <Grid item  xl={6} md={6} sm={12} xs={6}>
+            <Grid item>
               <AverageReviews />
             </Grid>
-            <Grid item  xl={6} md={6} sm={12} xs={6}>
+            <Grid item>
                 <SentimentAnalysis />
             </Grid>
-            <Grid item  xl={6} md={6} sm={12} xs={6}>
+            <Grid item>
               <WebsiteVisitors />
               </Grid>
         </Grid>
